@@ -37,7 +37,7 @@ export async function createWalletAndRequest(wallet, headers) {
     const payload = {
         wallet_hash: signature,
         key: `megafin.xyz requests you to sign in with your wallet address: ${wallet.address}`,
-        invite_code: '919d0976',
+        invite_code: 'a4be529e',
     };
 
     const response = await coday(
